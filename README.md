@@ -32,7 +32,7 @@ Reproducing the results of methods - MF, TMF, TTF++, and TMTF -, in observation 
 #### Random-split
 ```
 $ cd examples
-$ python run_exp.py --task OIPT --mode MF --setting random --lr 1e-5 --reg 1e-6 
+$ python run_exp.py --task OIPT --mode MF --setting random --lr 1e-5 --reg 1e-6       acc: 0.98023, nll: 0.07089, pll: 1.07346
 $ python run_exp.py --task OIPT --mode TMF_v --setting random --lr 1e-5 --reg 1e-7
 $ python run_exp.py --task OIPT --mode TF --setting random --lr 1e-5 --reg 1e-7
 $ python run_exp.py --task OIPT --mode TMTF --setting random --lr 1e-4 --reg 1e-6  
