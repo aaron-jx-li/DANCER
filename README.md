@@ -33,13 +33,13 @@ Reproducing the results of methods - MF, TMF, TTF++, and TMTF -, in observation 
 ```
 $ cd examples
 $ python run_exp.py --task OIPT --mode MF --setting random --lr 1e-5 --reg 1e-6       acc: 0.98023, nll: 0.07089, pll: 1.07346
-$ python run_exp.py --task OIPT --mode TMF_v --setting random --lr 1e-5 --reg 1e-7
+$ python run_exp.py --task OIPT --mode TMF_v --setting random --lr 1e-5 --reg 1e-7    
 $ python run_exp.py --task OIPT --mode TF --setting random --lr 1e-5 --reg 1e-7
-$ python run_exp.py --task OIPT --mode TMTF --setting random --lr 1e-4 --reg 1e-6  
+$ python run_exp.py --task OIPT --mode TMTF --setting random --lr 1e-4 --reg 1e-6     acc: 0.98093, nll: 0.06232, pll: 1.06430
 ```
 #### Time-based split
 ```
-$ cd examples
+$ cd examples0.62
 $ python run_exp.py --task OIPT --mode MF --setting time --lr 1e-4 --reg 1e-7 
 $ python run_exp.py --task OIPT --mode TMF_v --setting time --lr 1e-4 --reg 1e-7 
 $ python run_exp.py --task OIPT --mode TF --setting time --lr 1e-4 --reg 0
