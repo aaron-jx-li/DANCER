@@ -54,7 +54,7 @@ $ cd examples
 $ python run_exp.py --task OPPT --mode MF_v --setting naive --lr 1e-4 --reg 1e-4 
 $ python run_exp.py --task OPPT --mode TMF_v --setting naive --lr 1e-4 --reg 1e-4
 $ python run_exp.py --task OPPT --mode TF --setting naive --lr 1e-4 --reg 1e-5
-$ python run_exp.py --task OPPT --mode TMTF --setting naive --lr 1e-4 --reg 1e-4
+$ python run_exp.py --task OPPT --mode TMTF --setting naive --lr 1e-4 --reg 1e-4    mse: 0.75076 mae: 0.66371 acc: 0.25303
 ```
 #### In the debiased setting
 ```
